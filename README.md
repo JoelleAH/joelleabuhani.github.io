@@ -1,1 +1,1 @@
-Personal Website based on the Template by [Jon Barron](https://jonbarron.info/)
+Personal Website based on the Template by the Amazing [Jon Barron](https://jonbarron.info/)
