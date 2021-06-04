@@ -50,6 +50,7 @@
           <tr>
             <td style="padding:20px;width:100%;vertical-align:middle">
               <heading>Whats New?</heading>
+              <p><strong>May 27, 2021</strong> - <a href="https://pubs.acs.org/doi/10.1021/acs.jpcb.1c01130">QAFKA</a> now appears in The Journal of Physical Chemistry B.</p>
               <p><strong>May 24, 2021</strong> - The <a href="https://www.nature.com/articles/s41467-021-23279-6">Liquid-immersed Optics</a> paper now appears in Nature Communications.</p>
               <p><strong>Apr 15, 2021</strong> - The collaborative project <a href="https://www.nature.com/articles/s41467-021-22518-0">ZeroCostDL4Mic</a> now appears in Nature Communications.</p>
               <p><strong>Feb 28, 2021</strong> - Our <a href="https://ieeexplore.ieee.org/document/9439955">Multi-PSF Learning</a> work was accepted to <a href="https://iccp-conference.org/">ICCP 2021</a> and selected for a special issue of <a href="https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=34">TPAMI</a>.</p>
@@ -78,14 +79,63 @@
         </tbody></table>
         <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
 
+
+          <!-- Paper -->
+          <tr onmouseout="qafka_stop()" onmouseover="qafka_start()">
+
+            <!-- image/video -->          
+            <td style="padding:20px;width:25%;vertical-align:middle">
+              <div class="one">
+                <div class="two" id='qafka'>
+                  <img src='images/qafka_after.png' width="160" height="160"></div>
+                <img src='images/qafka_before.png' width="160" height="160">
+              </div>
+              <script type="text/javascript">
+                function qafka_start() {
+                  document.getElementById('qafka').style.opacity = "1";
+                }
+
+                function qafka_stop() {
+                  document.getElementById('qafka').style.opacity = "0";
+                }
+                qafka_stop()
+              </script>
+            </td>
+
+            <!-- Title, links, and short desc. -->
+            <td style="padding:20px;width:75%;vertical-align:middle">
+              <a href="https://pubs.acs.org/doi/10.1021/acs.jpcb.1c01130">
+                <papertitle>Automated Analysis of Fluorescence Kinetics in Single-Molecule Localization Microscopy Data Reveals Protein Stoichiometry</papertitle>
+              </a>
+              <br>
+              <a href="https://www.linkedin.com/in/alon-saguy-7923b6211/">Alon Saguy</a>,
+              <a href="https://www.researchgate.net/profile/Tim-Baldering">Tim N. Baldering</a>,
+              <a href="http://www.LucienWeiss.com/">Lucien E. Weiss</a>,
+              <strong>Elias Nehme</strong>,
+              <a href="https://scholar.google.com/citations?user=RnNv_FkAAAAJ&hl=de">Christos Karathanasis</a>,
+              <a href="https://user.uni-frankfurt.de/~madietz/">Marina S. Dietz</a>,
+              <a href="https://www.uni-frankfurt.de/43272324/Welcome_to_the_homepage_of_the_Heilemann_Group?legacy_request=1">Mike Heilemann</a>
+              <a href="https://nanobiooptics.net.technion.ac.il/">Yoav Shechtman</a>
+              <br>
+              <em>The Journal of Physical Chemistry B</em>, 2021
+              <br>
+              <a href="https://pubs.acs.org/doi/10.1021/acs.jpcb.1c01130">[paper]</a> / 
+              <a href="https://github.com/alonsaguy/QAFKA">[code]</a>
+              <p></p>
+              <p>Extracting and analyzing blinking events of fluorophore clusters with neural networks enables quantification of oligomerization level in membrane receptors. 
+              </p>
+            </td>
+          </tr>
+
+
           <!-- Paper -->
           <tr onmouseout="liquid_stop()" onmouseover="liquid_start()">
 
             <!-- image/video -->
             <td style="padding:20px;width:25%;vertical-align:middle">
-              <div id='liquidoptics' class='hidden'><img src="images/liquid_after2.gif" width="160" height="160"></div>
+              <div id='liquidoptics' class='hidden'><img src="images/liquid_after3.gif" width="160" height="160"></div>
               <div id='liqopt'>
-                <a href="images/liquid_after2.gif" width="160" height="160"><img src="images/liquid_before2.png" width="160" height="160"></a>
+                <a href="images/liquid_after3.gif" width="160" height="160"><img src="images/liquid_before2.png" width="160" height="160"></a>
               </div>
               <script type="text/javascript">
                 function liquid_start() {
@@ -100,27 +150,6 @@
                 liquid_stop()
               </script>
             </td>
-
-            <!-- image/video -->
-            <!--
-            <td style="padding:20px;width:25%;vertical-align:middle">
-              <div class="one">
-                <div class="two" id='liquid'>
-                  <img src='images/liquid_after.png' width="160" height="160"></div>
-                <img src='images/liquid_before.png' width="160" height="160">
-              </div>
-              <script type="text/javascript">
-                function liquid_start() {
-                  document.getElementById('liquid').style.opacity = "1";
-                }
-
-                function liquid_stop() {
-                  document.getElementById('liquid').style.opacity = "0";
-                }
-                liquid_stop()
-              </script>
-            </td>
-          -->
 
             <!-- Title, links, and short desc. -->
             <td style="padding:20px;width:75%;vertical-align:middle">
