@@ -83,6 +83,27 @@
 
             <!-- image/video -->
             <td style="padding:20px;width:25%;vertical-align:middle">
+              <div id='liquidoptics' class='hidden'><img src="images/liquid_after2.gif" width="160" height="160"></div>
+              <div id='liqopt'>
+                <a href="images/liquid_after2.gif" width="160" height="160"><img src="images/liquid_before2.png" width="160" height="160"></a>
+              </div>
+              <script type="text/javascript">
+                function liquid_start() {
+                  document.getElementById('liquidoptics').style.display = 'inline';
+                  document.getElementById('liqopt').style.display = 'none';
+                }
+
+                function liquid_stop() {
+                  document.getElementById('liquidoptics').style.display = 'none';
+                  document.getElementById('liqopt').style.display = 'inline';
+                }
+                liquid_stop()
+              </script>
+            </td>
+
+            <!-- image/video -->
+            <!--
+            <td style="padding:20px;width:25%;vertical-align:middle">
               <div class="one">
                 <div class="two" id='liquid'>
                   <img src='images/liquid_after.png' width="160" height="160"></div>
@@ -99,6 +120,7 @@
                 liquid_stop()
               </script>
             </td>
+          -->
 
             <!-- Title, links, and short desc. -->
             <td style="padding:20px;width:75%;vertical-align:middle">
