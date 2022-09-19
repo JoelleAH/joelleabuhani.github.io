@@ -50,7 +50,7 @@
           <tr>
             <td style="padding:20px;width:100%;vertical-align:middle">
               <heading>Whats New?</heading>
-              <p><strong>May 20, 2022</strong> - Our <a href="https://www.sciencedirect.com/science/article/pii/S2589004222004679">cell-cycle dependent chromatin dynamics</a> work now appears in iScience.</p>
+              <p><strong>May 20, 2022</strong> - Our cell-cycle dependent <a href="https://www.sciencedirect.com/science/article/pii/S2589004222004679">chromatin dynamics</a> work now appears in iScience.</p>
               <p><strong>Feb 09, 2022</strong> - Our <a href="https://ieeexplore.ieee.org/document/9439955">ICCP 2021</a> work won an Excellent Paper Award at the MLIS-TCE Conference.</p>
               <p><strong>Oct 04, 2021</strong> - I started a Research Scientist Intern position at <a href="https://en.globes.co.il/en/article-googles-verily-life-sciences-to-set-up-israel-rd-center-1001380819">Verily (=Google Life Sciences)</a>.</p>
               <p><strong>Jul 19, 2021</strong> - <a href="https://www.osapublishing.org/oe/fulltext.cfm?uri=oe-29-15-23877&id=453267">Deep-ROCS</a> now appears in Optics Express.</p>
@@ -680,6 +680,49 @@
         <table width="100%" align="center" border="0" cellpadding="20"><tbody>
 
           <!-- Course -->
+          <tr onmouseout="dgm_stop()" onmouseover="dgm_start()">
+
+            <!-- image/video -->
+            <td style="padding:20px;width:25%;vertical-align:middle">
+              <div id='dgm_move' class='hidden'><img src="images/dgm_course_after.gif" width="160" height="160"></div>
+              <div id='dgm_still'>
+                <a href="images/dgm_course_after.gif" width="160" height="160"><img src="images/dgm_course_before.png" width="160" height="160"></a>
+              </div>
+              <script type="text/javascript">
+                function dgm_start() {
+                  document.getElementById('dgm_move').style.display = 'inline';
+                  document.getElementById('dgm_still').style.display = 'none';
+                }
+
+                function dgm_stop() {
+                  document.getElementById('dgm_move').style.display = 'none';
+                  document.getElementById('dgm_still').style.display = 'inline';
+                }
+                dgm_stop()
+              </script>
+            </td>
+
+            <!-- Title, links, and short desc. -->
+            <td style="padding:20px;width:75%;vertical-align:middle">
+              <a href="data/Statistical_Image_Processing.pdf">
+                <papertitle>Statistical Methods in Image Processing</papertitle>
+              </a>
+              <br>
+              Teaching in English with
+              <a href="https://tomer.net.technion.ac.il/">Prof. Tomer Michaeli</a>
+              <br>
+              <a href="https://www.graduate.technion.ac.il/Subjects.Eng/?Sub=048954">[EE-046746]</em></a>
+              <br>
+              Spring 2022
+              <br>
+              <p></p>
+              <p>The course focuses on deep generative models for images describing practical strategies for learning high-dimensional probability distributions from samples.
+              </p>
+            </td>
+          </tr>
+
+
+          <!-- Course -->
           <tr onmouseout="cv_stop()" onmouseover="cv_start()">
 
             <!-- image/video -->
@@ -708,14 +751,15 @@
                 <papertitle>Algorithms and Applications in Computer Vision</papertitle>
               </a>
               <br>
-              Teaching in English with 
+              Taught in English with 
               <a href="https://il.linkedin.com/in/tal-daniel-2b919513b">Tal Daniel</a>,
-              <a href="https://il.linkedin.com/in/dahlia-urbach-97a816123">Dahlia Urbach</a>, and 
+              <a href="https://il.linkedin.com/in/dahlia-urbach-97a816123">Dahlia Urbach</a>,
+              <a href="https://www.linkedin.com/in/hilamanor/">Hila Manor</a>, and 
               <a href="https://webee.technion.ac.il/people/anat.levin/">Prof. Anat Levin</a>
               <br>
               <a href="https://www.graduate.technion.ac.il/Subjects.Eng/?Sub=46746">[EE-046746]</em></a>
               <br>
-              Spring 2021
+              Spring 2021, Winter 2022
               <br>
               <p></p>
               <p>The course focuses on fundamental problems in computer vision describing practical solutions including state-of-the-art deep learning approaches.
@@ -753,7 +797,7 @@
                 <papertitle>Computational Optical Imaging</papertitle>
               </a>
               <br>
-              Teaching in English with
+              Taught in English with
               <a href="https://nanobiooptics.net.technion.ac.il/">Prof. Yoav Shechtman</a>
               <br>
               <a href="https://www.graduate.technion.ac.il/Subjects.Eng/?Sub=336547">[BME-336547]</a>
