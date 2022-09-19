@@ -85,7 +85,7 @@
 
 
           <!-- Paper -->
-          <tr onmouseout="liquid_stop()" onmouseover="liquid_start()">
+          <tr onmouseout="chromatin_stop()" onmouseover="chromatin_start()">
 
             <!-- image/video -->
             <td style="padding:20px;width:25%;vertical-align:middle">
@@ -94,12 +94,12 @@
                 <a href="images/chromatin_after_v2.gif" width="160" height="160"><img src="images/chromatin_before.png" width="160" height="160"></a>
               </div>
               <script type="text/javascript">
-                function liquid_start() {
+                function chromatin_start() {
                   document.getElementById('telomere_tracking').style.display = 'inline';
                   document.getElementById('cellcycle').style.display = 'none';
                 }
 
-                function liquid_stop() {
+                function chromatin_stop() {
                   document.getElementById('telomere_tracking').style.display = 'none';
                   document.getElementById('cellcycle').style.display = 'inline';
                 }
@@ -110,7 +110,7 @@
             <!-- Title, links, and short desc. -->
             <td style="padding:20px;width:75%;vertical-align:middle">
               <a href="https://www.nature.com/articles/s41467-021-23279-6">
-                <papertitle>3D Printable Diffractive Optical Elements by Liquid Immersion</papertitle>
+                <papertitle>Quantifying cell-cycle-dependent chromatin dynamics during interphase by live 3D tracking</papertitle>
               </a>
               <br>
               <a href="https://www.linkedin.com/in/tal-naor-b72048205/">Tal Naor</a>,
