@@ -126,8 +126,16 @@ name {
   -webkit-transition: opacity .2s ease-in-out;
 }
 
-span.highlight {
-  background-color: #ffffd0;
+span.highlight1 {
+  background-color: #ffffd0; /*EEE684*/
+}
+
+span.highlight2 {
+  background-color: #ffd0d0;
+}
+
+span.highlight3 {
+  background-color: #d0d0ff;
 }
 
 a {
